@@ -1,0 +1,49 @@
+{
+  "name" : "Castle on the Grid",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n.X.\n.X.\n...\n0 0 0 2\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n...\n.X.\n.X.\n2 0 2 2\n",
+    "output" : "3\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\n.X..XX...X\nX.........\n.X.......X\n..........\n........X.\n.X...XXX..\n.....X..XX\n.....X.X..\n..........\n.....X..XX\n9 1 9 6\n",
+    "output" : "3\n",
+    "index" : 2,
+    "active" : true
+  } , {
+    "input" : "40\n...X......XX.X...........XX....X.XX.....\n.X..............X...XX..X...X........X.X\n......X....X....X.........X...........X.\n.X.X.X..X........X.....X.X...X.....X..X.\n....X.X.X...X..........X..........X.....\n..X......X....X....X...X....X.X.X....XX.\n...X....X.......X..XXX.......X.X.....X..\n...X.X.........X.X....X...X.........X...\nXXXX..X......X.XX......X.X......XX.X..XX\n.X........X....X.X......X..X....XX....X.\n...X.X..X.X.....X...X....X..X....X......\n....XX.X.....X.XX.X...X.X.....X.X.......\n.X.X.X..............X.....XX..X.........\n..X...............X......X........XX...X\n.X......X...X.XXXX.....XX...........X..X\n...X....XX....X...XX.X..X..X..X.....X..X\n...X...X.X.....X.....X.....XXXX.........\nX.....XX..X.............X.XX.X.XXX......\n.....X.X..X..........X.X..X...X.X......X\n...X.....X..X.............X......X..X..X\n........X.....................X....X.X..\n..........X.....XXX...XX.X..............\n........X..X..........X.XXXX..X.........\n..X..X...X.......XX...X.....X...XXX..X..\n.X.......X..............X....X...X....X.\n.................X.....X......X.....X...\n.......X.X.XX..X.XXX.X.....X..........X.\nX..X......X..............X..X.X.......X.\nX........X.....X.....X....XX.......XX...\nX.....X.................X.....X..X...XXX\nXXX..X..X.X.XX..X....X.....XXX..X......X\n..........X.....X.....XX................\n..X.........X..X.........X...X.....X....\n.X.X....X...XX....X...............X.....\n.X....X....XX.XX........X..X............\nX...X.X................XX......X..X.....\n..X.X.......X.X..X.....XX.........X..X..\n........................X..X.XX..X......\n........X..X.X.....X.....X......X.......\n.X..X....X.X......XX....................\n34 28 16 8\n",
+    "output" : "9\n",
+    "index" : 3,
+    "active" : false
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.CastleOnTheGrid",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.12.21",
+  "contestName" : "HackerRank - Interview Preparation Kit - Stacks and Queues",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,54 @@
+{
+  "name" : "Making Candies",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 1 2 12\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 1 6 45\n",
+    "output" : "16\n",
+    "index" : 1,
+    "active" : true
+  } , {
+    "input" : "5184889632 5184889632 20 10000\n",
+    "output" : "1\n",
+    "index" : 2,
+    "active" : true
+  }  , {
+    "input" : "1 1 1000000000000 1000000000000\n\n",
+    "output" : "1000000000000\n",
+    "index" : 3,
+    "active" : true
+  }  , {
+    "input" : "4294967297 4294967297 1000000000000 1000000000000\n\n",
+    "output" : "1\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.MakingCandies",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.12.09",
+  "contestName" : "HackerRank - Interview Preparation Kit - Search",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

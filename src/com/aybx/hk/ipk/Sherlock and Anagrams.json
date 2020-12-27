@@ -1,0 +1,44 @@
+{
+  "name" : "Sherlock and Anagrams",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\nabba\nabcd\n",
+    "output" : "4\n0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\nifailuhkqq\nkkkk\n",
+    "output" : "3\n10\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\ncdcd\n",
+    "output" : "5\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.SherlockAndAnagrams",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.12.13",
+  "contestName" : "HackerRank - Interview Preparation Kit - Dictionaries and Hashmaps",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

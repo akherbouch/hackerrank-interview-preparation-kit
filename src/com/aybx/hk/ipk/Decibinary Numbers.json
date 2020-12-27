@@ -1,0 +1,44 @@
+{
+  "name" : "Decibinary Numbers",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1\n2\n3\n4\n10\n",
+    "output" : "0\n1\n2\n10\n100\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7\n8\n23\n19\n16\n26\n7\n6\n",
+    "output" : "12\n23\n102\n14\n111\n4\n11\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\n19\n25\n6\n8\n20\n10\n27\n24\n30\n11\n",
+    "output" : "102\n103\n11\n12\n110\n100\n8\n31\n32\n5\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.DecibinaryNumbers",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.13",
+  "contestName" : "HackerRank - Interview Preparation Kit - Dynamic Programming",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
