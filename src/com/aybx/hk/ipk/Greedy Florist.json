@@ -1,0 +1,44 @@
+{
+  "name" : "Greedy Florist",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 3\n2 5 6\n",
+    "output" : "13\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 2\n2 5 6\n",
+    "output" : "15\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 3\n1 3 5 7 9\n",
+    "output" : "29\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.GreedyFlorist",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.04",
+  "contestName" : "HackerRank - Interview Preparation Kit - Greedy Algorithms",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

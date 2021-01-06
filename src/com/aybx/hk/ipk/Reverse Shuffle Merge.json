@@ -1,0 +1,49 @@
+{
+  "name" : "Reverse Shuffle Merge",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "eggegg\n",
+    "output" : "egg\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "abcdefgabcdefg\n",
+    "output" : "agfedcb\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "aeiouuoiea\n",
+    "output" : "aeiou\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "aegeaggg\n\n",
+    "output" : "gaeg\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.ReverseShuffleMerge",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.04",
+  "contestName" : "HackerRank - Interview Preparation Kit - Greedy Algorithms",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
