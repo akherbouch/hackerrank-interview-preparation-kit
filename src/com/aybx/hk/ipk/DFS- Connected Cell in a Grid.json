@@ -1,0 +1,34 @@
+{
+  "name" : "DFS: Connected Cell in a Grid",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n4\n1 1 0 0\n0 1 1 0\n0 0 1 0\n1 0 0 0\n",
+    "output" : "5\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.DFSConnectedCellInAGrid",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.07",
+  "contestName" : "HackerRank - Interview Preparation Kit - Graphs",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
