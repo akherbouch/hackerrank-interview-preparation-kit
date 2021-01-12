@@ -1,0 +1,34 @@
+{
+  "name" : "Balanced Forest",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n5\n1 2 2 1 1\n1 2\n1 3\n3 5\n1 4\n3\n1 3 5\n1 3\n1 2\n",
+    "output" : "2\n-1\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.BalancedForest",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.11",
+  "contestName" : "HackerRank - Interview Preparation Kit - Trees",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
