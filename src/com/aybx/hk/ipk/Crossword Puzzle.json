@@ -1,0 +1,44 @@
+{
+  "name" : "Crossword Puzzle",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "+-++++++++\n+-++++++++\n+-++++++++\n+-----++++\n+-+++-++++\n+-+++-++++\n+++++-++++\n++------++\n+++++-++++\n+++++-++++\nLONDON;DELHI;ICELAND;ANKARA\n",
+    "output" : "+L++++++++\n+O++++++++\n+N++++++++\n+DELHI++++\n+O+++C++++\n+N+++E++++\n+++++L++++\n++ANKARA++\n+++++N++++\n+++++D++++\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "+-++++++++\n+-++++++++\n+-------++\n+-++++++++\n+-++++++++\n+------+++\n+-+++-++++\n+++++-++++\n+++++-++++\n++++++++++\nAGRA;NORWAY;ENGLAND;GWALIOR\n",
+    "output" : "+E++++++++\n+N++++++++\n+GWALIOR++\n+L++++++++\n+A++++++++\n+NORWAY+++\n+D+++G++++\n+++++R++++\n+++++A++++\n++++++++++\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "XXXXXX-XXX\nXX------XX\nXXXXXX-XXX\nXXXXXX-XXX\nXXX------X\nXXXXXX-X-X\nXXXXXX-X-X\nXXXXXXXX-X\nXXXXXXXX-X\nXXXXXXXX-X\nICELAND;MEXICO;PANAMA;ALMATY\n",
+    "output" : "XXXXXXIXXX\nXXMEXICOXX\nXXXXXXEXXX\nXXXXXXLXXX\nXXXPANAMAX\nXXXXXXNXLX\nXXXXXXDXMX\nXXXXXXXXAX\nXXXXXXXXTX\nXXXXXXXXYX\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.CrosswordPuzzle",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.13",
+  "contestName" : "HackerRank - Interview Preparation Kit - Recursion and Backtracking",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

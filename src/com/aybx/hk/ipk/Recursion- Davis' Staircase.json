@@ -1,0 +1,39 @@
+{
+  "name" : "Recursion: Davis' Staircase",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1\n3\n7\n",
+    "output" : "1\n4\n44\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n35\n30\n33\n36\n20\n",
+    "output" : "1132436852\n53798080\n334745777\n2082876103\n121415\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.RecursionDavisStaircase",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.13",
+  "contestName" : "HackerRank - Interview Preparation Kit - Recursion and Backtracking",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

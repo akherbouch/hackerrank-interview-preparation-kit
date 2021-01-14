@@ -1,0 +1,44 @@
+{
+  "name" : "Recursive Digit Sum",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "148 3\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9875 4\n",
+    "output" : "8\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "123 3\n",
+    "output" : "9\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.RecursiveDigitSum",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.13",
+  "contestName" : "HackerRank - Interview Preparation Kit - Recursion and Backtracking",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
