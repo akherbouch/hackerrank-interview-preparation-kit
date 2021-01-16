@@ -1,0 +1,49 @@
+{
+  "name" : "Friend Circle Queries",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n1 2\n1 3\n",
+    "output" : "2\n3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n1000000000 23\n11 3778\n7 47\n11 1000000000\n",
+    "output" : "2\n2\n2\n4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\n1 2\n3 4\n1 3\n5 7\n5 6\n7 4\n",
+    "output" : "2\n2\n4\n4\n4\n7\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "8\n6 4\n5 9\n8 5\n4 1\n1 5\n7 2\n4 2\n7 6\n",
+    "output" : "2\n2\n3\n3\n6\n6\n8\n8\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/com/aybx/hk/ipk",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "com.aybx.hk.ipk.FriendCircleQueries",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.16",
+  "contestName" : "HackerRank - Interview Preparation Kit - Miscellaneous",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

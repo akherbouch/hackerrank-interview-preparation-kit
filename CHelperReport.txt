@@ -1,2 +1,2 @@
-44 src/com/aybx/hk/ipk/Recursive Digit Sum.json
+36 src/com/aybx/hk/ipk/Maximum Xor.json
 0

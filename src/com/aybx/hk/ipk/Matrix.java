@@ -77,7 +77,6 @@ public class Matrix {
         }
 
         public int find(int v) {
-            if (parents[v] == v) return v;
             while (parents[v] != v) {
                 parents[v] = parents[parents[v]];
                 v = parents[v];
